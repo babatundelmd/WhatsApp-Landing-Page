@@ -2,7 +2,9 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
 }
+
 
 body{
     background: #d7dbd7;
@@ -19,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     z-index: 2;
+  
 }
 .header-logo{
     display: inline-block;
@@ -69,6 +72,7 @@ body{
     max-width: 1050px;
     overflow: hidden;
     z-index: 2;
+    margin-bottom: 10%;
 }
 
 .landing-main{
